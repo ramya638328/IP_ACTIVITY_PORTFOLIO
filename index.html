@@ -1,201 +1,256 @@
- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio showcasing skills, projects, and contact information.">
-    <title>My Portfolio | Developer</title>
+    <meta name="description" content="Ramya's personal portfolio showcasing technical skills and projects.">
+    <title>Ramya | Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="header">
-        <nav class="navbar container">
-            <a href="#home" class="logo">Port<span>folio.</span></a>
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">Ramya<span>.</span></a>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
-                ☰
-            </button>
+        <button id="menuToggle" class="menu-toggle"
+                aria-label="Toggle navigation" aria-expanded="false">☰</button>
 
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
 
-            <a href="#contact" class="nav-cta">Let's Talk ↗</a>
-        </nav>
-    </header>
+        <a href="#contact" class="nav-cta">Let's Talk ↗</a>
+    </nav>
+</header>
 
-    <main>
-        <section class="hero section" id="home">
-            <div class="container hero-grid">
-                <div class="hero-content">
-                    <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES</p>
-                    <h1>Hello, I'm <span class="gradient-text">Your Name.</span></h1>
-                    <h2>I'm a <span id="typingText">Web Developer</span><span class="cursor">|</span></h2>
-                    <p class="hero-description">
-                        I create modern, responsive, and user-friendly digital experiences
-                        by combining creative design with clean code.
-                    </p>
+<main>
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="eyebrow">● AVAILABLE FOR OPPORTUNITIES</p>
 
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
-                        <a href="#contact" class="btn btn-outline">Contact Me</a>
-                    </div>
+                <h1>Hello, I'm <span class="gradient-text">Ramya.</span></h1>
 
-                    <div class="social-links">
-                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-                    </div>
+                <h2>I'm a <span id="typingText">Web Developer</span><span class="cursor">|</span></h2>
+
+                <p class="hero-description">
+                    I create modern, responsive, and user-friendly digital
+                    experiences by combining creative design with clean code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
 
-                <div class="hero-visual">
-                    <div class="profile-card">
-                        <div class="profile-orbit orbit-one"></div>
-                        <div class="profile-orbit orbit-two"></div>
-                        <div class="profile-icon">👩‍💻</div>
-                        <div class="floating-tag tag-top">✦ Creative Thinker</div>
-                        <div class="floating-tag tag-bottom">⌘ Problem Solver</div>
-                    </div>
-                    <div class="decor decor-one"></div>
-                    <div class="decor decor-two"></div>
+                <div class="social-links">
+                    <a href="https://github.com/ramya638328"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
                 </div>
             </div>
 
-            <div class="container stats">
-                <div><strong>03+</strong><span>Projects Built</span></div>
-                <div><strong>05+</strong><span>Technical Skills</span></div>
-                <div><strong>100%</strong><span>Passion to Learn</span></div>
-            </div>
-        </section>
-
-        <section class="section" id="about">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">GET TO KNOW ME</p>
-                    <h2>About <span class="gradient-text">Me</span></h2>
-                    <p>A little about who I am and what I love to do.</p>
-                </div>
-
-                <div class="about-card">
-                    <div class="about-symbol">✧</div>
-                    <div>
-                        <h3>Building ideas into reality.</h3>
-                        <p>
-                            I'm a passionate student and aspiring developer interested in
-                            web development, programming, and technology. I enjoy learning
-                            new tools, solving problems, and creating projects that are
-                            useful, attractive, and easy to use. My goal is to keep improving
-                            my skills and contribute to meaningful projects.
-                        </p>
-                        <a href="#contact" class="text-link">Let's connect <span>→</span></a>
-                    </div>
+            <div class="hero-visual">
+                <div class="profile-card">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="profile-icon">👩‍💻</div>
+                    <div class="floating-tag tag-top">✦ Creative Thinker</div>
+                    <div class="floating-tag tag-bottom">⌘ Problem Solver</div>
                 </div>
             </div>
-        </section>
-
-        <section class="section section-alt" id="skills">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">WHAT I WORK WITH</p>
-                    <h2>My <span class="gradient-text">Skills</span></h2>
-                    <p>Technologies and tools I use to bring ideas to life.</p>
-                </div>
-
-                <div class="skills-grid">
-                    <article class="skill-card"><span class="skill-icon html-icon">5</span><h3>HTML5</h3><p>Semantic web structure</p></article>
-                    <article class="skill-card"><span class="skill-icon css-icon">✦</span><h3>CSS3</h3><p>Responsive web design</p></article>
-                    <article class="skill-card"><span class="skill-icon js-icon">JS</span><h3>JavaScript</h3><p>Interactive experiences</p></article>
-                    <article class="skill-card"><span class="skill-icon python-icon">Py</span><h3>Python</h3><p>Programming and logic</p></article>
-                    <article class="skill-card"><span class="skill-icon db-icon">▤</span><h3>MySQL</h3><p>Database fundamentals</p></article>
-                    <article class="skill-card"><span class="skill-icon git-icon">⌘</span><h3>Git & GitHub</h3><p>Version control</p></article>
-                </div>
-            </div>
-        </section>
-
-        <section class="section" id="projects">
-            <div class="container">
-                <div class="section-heading">
-                    <p class="eyebrow">MY RECENT WORK</p>
-                    <h2>Featured <span class="gradient-text">Projects</span></h2>
-                    <p>A selection of projects I've worked on and learned from.</p>
-                </div>
-
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <div class="project-banner banner-one"><span>🌐</span><small>WEB DEVELOPMENT</small></div>
-                        <div class="project-body">
-                            <p class="project-number">PROJECT 01</p>
-                            <h3>Student Portal</h3>
-                            <p>A web application concept for student registration, profiles, courses, and academic results.</p>
-                            <div class="tags"><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></div>
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">View Project ↗</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-banner banner-two"><span>🛠️</span><small>COMPUTER NETWORKS</small></div>
-                        <div class="project-body">
-                            <p class="project-number">PROJECT 02</p>
-                            <h3>Network Troubleshooting Assistant</h3>
-                            <p>A diagnostic tool that checks network connectivity, IP configuration, ping, and DNS information.</p>
-                            <div class="tags"><span>Python</span><span>Flask</span><span>SQLite</span></div>
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">View Project ↗</a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-banner banner-three"><span>📝</span><small>APPLICATION DEVELOPMENT</small></div>
-                        <div class="project-body">
-                            <p class="project-number">PROJECT 03</p>
-                            <h3>Online Quiz Application</h3>
-                            <p>An interactive quiz platform concept for answering questions and tracking quiz results.</p>
-                            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span></div>
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="text-link">View Project ↗</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-alt" id="contact">
-            <div class="container">
-                <div class="contact-card">
-                    <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-                    <h2>Let's build something <span class="gradient-text">great.</span></h2>
-                    <p>I'm always interested in learning, collaborating, and exploring new opportunities.</p>
-
-                    <form id="contactForm" class="contact-form">
-                        <div class="form-row">
-                            <input type="text" id="name" placeholder="Your name" aria-label="Your name" required>
-                            <input type="email" id="email" placeholder="Your email" aria-label="Your email" required>
-                        </div>
-                        <textarea id="message" rows="5" placeholder="Tell me about your idea..." aria-label="Your message" required></textarea>
-                        <button type="submit" class="btn btn-primary">Prepare Email ↗</button>
-                        <p id="formMessage" class="form-message" role="status"></p>
-                    </form>
-                    <p class="contact-note">This form opens your email app; it does not send messages to a server.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-content">
-            <a href="#home" class="logo">Port<span>folio.</span></a>
-            <p>Designed with passion & built with code.</p>
-            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
         </div>
-    </footer>
 
-    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+        <div class="container stats">
+            <div><strong>03+</strong><span>Projects Built</span></div>
+            <div><strong>06+</strong><span>Technical Skills</span></div>
+            <div><strong>100%</strong><span>Passion to Learn</span></div>
+        </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p>A little about who I am and what I love to do.</p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-symbol">✧</div>
+                <div>
+                    <h3>Building Ideas into Reality</h3>
+                    <p>
+                        I'm Ramya, a student and aspiring developer interested
+                        in web development, programming, and technology.
+                        I enjoy learning new tools, solving problems, and
+                        developing practical projects. My goal is to improve
+                        my technical skills and create useful digital experiences.
+                    </p>
+                    <a href="#contact" class="text-link">Let's connect →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+                <p>Technologies and tools I use to bring ideas to life.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon html">5</span>
+                    <h3>HTML5</h3>
+                    <p>Web Structure</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon css">✦</span>
+                    <h3>CSS3</h3>
+                    <p>Responsive Design</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon js">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive Websites</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon python">Py</span>
+                    <h3>Python</h3>
+                    <p>Programming and Logic</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon mysql">▤</span>
+                    <h3>MySQL</h3>
+                    <p>Database Fundamentals</p>
+                </article>
+                <article class="skill-card">
+                    <span class="skill-icon git">⌘</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <p>Projects that demonstrate my learning and development skills.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-banner banner-one">
+                        <span>🌐</span>
+                        <small>WEB DEVELOPMENT</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-number">PROJECT 01</p>
+                        <h3>KCET Student Portal</h3>
+                        <p>A portal for student registration, profiles, courses, and academic results.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span>
+                            <span>PHP</span><span>MySQL</span>
+                        </div>
+                        <a class="text-link"
+                           href="https://github.com/ramya638328"
+                           target="_blank" rel="noopener noreferrer">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-banner banner-two">
+                        <span>🛠️</span>
+                        <small>COMPUTER NETWORKS</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-number">PROJECT 02</p>
+                        <h3>Network Troubleshooting Assistant</h3>
+                        <p>A diagnostic tool for checking IP configuration, connectivity, ping, and DNS.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Flask</span><span>SQLite</span>
+                        </div>
+                        <a class="text-link"
+                           href="https://github.com/ramya638328"
+                           target="_blank" rel="noopener noreferrer">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-banner banner-three">
+                        <span>📝</span>
+                        <small>APPLICATION DEVELOPMENT</small>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-number">PROJECT 03</p>
+                        <h3>Online Quiz Application</h3>
+                        <p>An interactive quiz application for answering questions and tracking results.</p>
+                        <div class="tags">
+                            <span>HTML</span><span>CSS</span>
+                            <span>JavaScript</span><span>PHP</span>
+                        </div>
+                        <a class="text-link"
+                           href="https://github.com/ramya638328"
+                           target="_blank" rel="noopener noreferrer">View Project ↗</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="contact-card">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2>Let's Build Something <span class="gradient-text">Great.</span></h2>
+                <p>I'm interested in learning, collaborating, and exploring new opportunities.</p>
+
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <input type="text" id="name" placeholder="Your name"
+                               aria-label="Your name" required>
+                        <input type="email" id="email" placeholder="Your email"
+                               aria-label="Your email" required>
+                    </div>
+
+                    <textarea id="message" rows="5"
+                              placeholder="Your message..."
+                              aria-label="Your message" required></textarea>
+
+                    <button type="submit" class="btn btn-primary">Prepare Email ↗</button>
+                    <p id="formMessage" class="form-message" role="status"></p>
+                </form>
+
+                <p class="contact-note">The form opens your default email application.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#home" class="logo">Ramya<span>.</span></a>
+        <p>Designed with passion and built with code.</p>
+        <p>© <span id="year"></span> Ramya. All rights reserved.</p>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
 </body>
 </html>
+
